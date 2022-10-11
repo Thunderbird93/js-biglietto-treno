@@ -22,4 +22,4 @@ ${price}
 
 console.log(price)
 
-document.getElementById(`price`).innerHTML += price;
+document.getElementById(`price`).innerHTML += price.toFixed(2);
